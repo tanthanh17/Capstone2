@@ -1,0 +1,27 @@
+.menu-desktop {
+    display: flex;
+  }
+  
+  .buttons-desktop {
+    display: flex;
+  }
+  
+  .menu-mobile-button {
+    display: none;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .menu-desktop {
+      display: none;
+    }
+  
+    .buttons-desktop {
+      display: none;
+    }
+  
+    .menu-mobile-button {
+      display: block;
+    }
+  }
+  
